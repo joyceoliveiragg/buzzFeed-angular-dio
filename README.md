@@ -2,7 +2,6 @@
 # 🧠 Projeto BuzzFeed Quiz Clone – Angular
 
 Este projeto é uma recriação do famoso estilo de quiz do BuzzFeed, desenvolvido com Angular. Ele foi construído como parte de um desafio prático durante uma imersão em Angular.  
-Sinta-se à vontade para **explorar, personalizar ou melhorar** este projeto – criatividade é o limite!
 
 ---
 
