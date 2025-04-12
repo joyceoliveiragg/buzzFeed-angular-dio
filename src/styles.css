@@ -1,5 +1,4 @@
 
-/* Fonte moderna */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 body {
@@ -10,14 +9,14 @@ body {
   color: #333;
 }
 
-/* Container principal */
+
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
 }
 
-/* Botões */
+
 button {
   background-color: #4a90e2;
   color: white;
@@ -33,7 +32,7 @@ button:hover {
   background-color: #357ab8;
 }
 
-/* Transições e responsividade */
+
 .card {
   background: white;
   border-radius: 12px;
