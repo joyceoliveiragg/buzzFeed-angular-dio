@@ -1,27 +1,107 @@
-# ProjetoBuzzfeed
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+# 🧠 Projeto BuzzFeed Quiz Clone – Angular
 
-## Development server
+Este projeto é uma recriação do famoso estilo de quiz do BuzzFeed, desenvolvido com Angular. Ele foi construído como parte de um desafio prático durante uma imersão em Angular.  
+Sinta-se à vontade para **explorar, personalizar ou melhorar** este projeto – criatividade é o limite!
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 📦 Sobre o Projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este projeto foi gerado com o [Angular CLI](https://github.com/angular/angular-cli) versão `14.1.2`.
 
-## Build
+### 🛠️ Funcionalidades
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Interface inspirada no estilo visual da BuzzFeed
+- Sistema de perguntas e resultados baseado em múltipla escolha
+- Componentização com Angular
+- Estilização com CSS customizado
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📍 Como rodar o projeto
 
-## Running end-to-end tests
+### 🔧 Instalação
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+npm install
+```
 
-## Further help
+### ▶️ Servidor de desenvolvimento
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+ng serve
+```
+
+Acesse no navegador: [http://localhost:4200](http://localhost:4200)  
+O app será recarregado automaticamente a cada alteração no código.
+
+---
+
+## 🏗️ Comandos Úteis
+
+### Gerar um novo componente:
+
+```bash
+ng generate component nome-do-componente
+```
+
+Você também pode usar:
+
+```bash
+ng generate directive|pipe|service|class|guard|interface|enum|module
+```
+
+### 🔨 Build (compilação para produção):
+
+```bash
+ng build
+```
+
+O build final ficará na pasta `dist/`.
+
+---
+
+## 🧪 Testes
+
+### Rodar testes unitários com Karma:
+
+```bash
+ng test
+```
+
+### Rodar testes de ponta a ponta (e2e):
+
+```bash
+ng e2e
+```
+
+> ⚠️ Lembre-se de instalar o pacote de testes end-to-end antes de rodar este comando.
+
+---
+
+## 📘 Ajuda
+
+Use o comando:
+
+```bash
+ng help
+```
+
+Ou consulte a [documentação oficial do Angular CLI](https://angular.io/cli).
+
+---
+
+## 💡 Possibilidades Futuras
+
+Durante o desenvolvimento deste projeto, surgiram diversas ideias para torná-lo ainda mais dinâmico e completo. Devido ao tempo limitado, optou-se por priorizar a entrega funcional e consolidada da aplicação base. No entanto, seguem abaixo algumas funcionalidades extras que poderiam ser implementadas para enriquecer ainda mais a experiência do usuário:
+
+- **Resultado Personalizado**: Ao final do quiz, exibir um personagem ou perfil baseado nas respostas do usuário, como "Você seria um herói destemido!" ou "Você seria um vilão estratégico!".
+
+- **Barra de Progresso**: Incluir uma barra que indique o progresso do usuário, mostrando em qual pergunta ele está e quantas ainda faltam para concluir o quiz.
+
+- **Modo Escuro/Claro**: Adicionar um botão que permita alternar entre os modos claro e escuro, melhorando o conforto visual e a acessibilidade.
+
+- **Compartilhamento de Resultado**: Permitir que o resultado final do quiz possa ser compartilhado em redes sociais ou via link, aumentando o alcance e a interatividade da aplicação.
+
+---
